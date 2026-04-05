@@ -1,0 +1,246 @@
+.body {
+  background-color: #f4f6f8;
+  color: #1e293b;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h2 {
+  margin-bottom: 10px;
+}
+h1, h2, h3 {
+  color: #1e293b;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.income {
+  background: #d4edda;
+}
+
+.expense {
+  background: #f8d7da;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.select {
+  padding: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-color: #e2e8f0;
+
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-color: #e2e8f0;
+  background: #f0f0f0;
+
+}
+
+
+
+.insights {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e0e0e0;
+  border-radius: 8px;
+}
+p {
+  color: #475569;
+}
+
+
+/* DARK MODE */
+
+.dark {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.dark h1, 
+.dark h2, 
+.dark h3 {
+  color: #e2e8f0;
+}
+
+.dark .header h1 {
+  color: #e2e8f0; 
+}
+
+.dark p {
+  color: #94a3b8;
+}
+
+.dark .card {
+  background: #1e293b;
+}
+
+.dark .income {
+  background: #1b4332;
+}
+
+.dark .expense {
+  background: #5a1a1a;
+}
+
+/* ===== DARK MODE TABLE FIX ===== */
+
+.dark table {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+}
+
+.dark th {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155 !important;
+}
+
+.dark td {
+  background: transparent !important;
+  color: #e2e8f0 !important;
+  border: 1px solid #334155 !important;
+}
+
+.dark tbody tr:nth-child(odd) {
+  background: #1e293b !important;
+}
+
+.dark tbody tr:nth-child(even) {
+  background: #273449 !important;
+}
+
+.dark tbody tr:hover {
+  background: #334155 !important;
+}
+
+
+.dark .insights {
+  background: #1e1e1e;
+}
+
+.dark button {
+  background: #444;
+}
+
+.dark select,
+.dark input {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+/* ADD THIS */
+.section {
+  margin-bottom: 25px;
+}
+
+/* IMPROVE CARDS */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* REMOVE colored backgrounds */
+.income {
+  border-left: 5px solid #22c55e;
+  background: white;
+}
+
+.expense {
+  border-left: 5px solid #ef4444;
+  background: white;
+}
+
+/* HEADER */
+.header h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* TABLE IMPROVEMENT */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.tr:hover {
+  background: #f9fafb;
+}
+
+/* INPUTS */
+.input, select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* BUTTON */
+.button {
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

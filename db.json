@@ -1,0 +1,33 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "date": "2026-04-01",
+      "amount": 5000,
+      "category": "Salary",
+      "type": "income"
+    },
+    {
+      "id": "2",
+      "date": "2026-04-02",
+      "amount": 200,
+      "category": "Food",
+      "type": "expense"
+    },
+    {
+      "date": "2026-04-05",
+      "amount": 3000,
+      "category": "tuition",
+      "type": "income",
+      "id": "cK3WfAehI6E"
+    },
+    {
+      "date": "2026-04-06",
+      "amount": 300,
+      "category": "movie",
+      "type": "expense",
+      "id": "-diN4j2y5oU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
