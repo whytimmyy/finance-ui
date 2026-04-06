@@ -140,35 +140,34 @@ p {
   background: #5a1a1a;
 }
 
-/* ===== DARK MODE TABLE FIX ===== */
 
 .dark table {
-  background: #1e293b !important;
-  color: #e2e8f0 !important;
+  background: #1e293b ;
+  color: #e2e8f0 ;
 }
 
 .dark th {
-  background: #0f172a !important;
-  color: #f8fafc !important;
-  border: 1px solid #334155 !important;
+  background: #0f172a ;
+  color: #f8fafc ;
+  border: 1px solid #334155 ;
 }
 
 .dark td {
-  background: transparent !important;
-  color: #e2e8f0 !important;
-  border: 1px solid #334155 !important;
+  background: transparent;
+  color: #e2e8f0 ;
+  border: 1px solid #334155;
 }
 
 .dark tbody tr:nth-child(odd) {
-  background: #1e293b !important;
+  background: #1e293b ;
 }
 
 .dark tbody tr:nth-child(even) {
-  background: #273449 !important;
+  background: #273449 ;
 }
 
 .dark tbody tr:hover {
-  background: #334155 !important;
+  background: #334155 ;
 }
 
 
